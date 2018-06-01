@@ -1,0 +1,34 @@
+﻿Build started 5/31/2018 6:25:50 PM.
+     1>Project "C:\Users\Akshay\Desktop\Flocking\builds\flockCMake.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Akshay\Desktop\Flocking\3rdparty\gtest\include /I"C:\Users\Akshay\Desktop\Flocking\3rdparty\SFML-2.4.2\include" /IC:\Users\Akshay\Desktop\Flocking\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"flockCMake.dir\Debug\\" /Fd"flockCMake.dir\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ..\src\Simulation.cpp ..\src\Vehicle.cpp ..\src\VehicleSystem.cpp C:\Users\Akshay\Desktop\Flocking\main.cpp
+         Simulation.cpp
+     1>..\src\Simulation.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>..\src\Simulation.cpp(44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>..\src\Simulation.cpp(114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         Vehicle.cpp
+     1>..\src\Vehicle.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>..\src\Vehicle.cpp(43): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>..\src\Vehicle.cpp(237): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         VehicleSystem.cpp
+     1>..\src\VehicleSystem.cpp(7): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+     1>..\src\VehicleSystem.cpp(83): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>..\src\VehicleSystem.cpp(91): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>..\src\VehicleSystem.cpp(99): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>..\src\VehicleSystem.cpp(107): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>..\src\VehicleSystem.cpp(115): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>..\src\VehicleSystem.cpp(123): warning C4305: 'argument': truncation from 'double' to 'float'
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Akshay\Desktop\Flocking\builds\Debug\flockCMake.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/Users/Akshay/Desktop/Flocking/3rdparty/gtest/lib /LIBPATH:C:/Users/Akshay/Desktop/Flocking/3rdparty/gtest/lib/Debug /LIBPATH:"C:/Users/Akshay/Desktop/Flocking/3rdparty/SFML-2.4.2/lib" /LIBPATH:"C:/Users/Akshay/Desktop/Flocking/3rdparty/SFML-2.4.2/lib/Debug" gtest.lib gtest_main.lib "..\3rdparty\SFML-2.4.2\lib\flac.lib" "..\3rdparty\SFML-2.4.2\lib\freetype.lib" "..\3rdparty\SFML-2.4.2\lib\jpeg.lib" "..\3rdparty\SFML-2.4.2\lib\ogg.lib" "..\3rdparty\SFML-2.4.2\lib\openal32.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-audio-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-audio-s-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-audio-s.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-audio.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-graphics-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-graphics-s-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-graphics-s.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-graphics.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-main-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-main.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-network-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-network-s-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-network-s.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-network.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-system-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-system-s-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-system-s.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-system.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-window-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-window-s-d.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-window-s.lib" "..\3rdparty\SFML-2.4.2\lib\sfml-window.lib" "..\3rdparty\SFML-2.4.2\lib\vorbis.lib" "..\3rdparty\SFML-2.4.2\lib\vorbisenc.lib" "..\3rdparty\SFML-2.4.2\lib\vorbisfile.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Akshay/Desktop/Flocking/builds/Debug/flockCMake.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Akshay/Desktop/Flocking/builds/Debug/flockCMake.lib" /MACHINE:X64  /machine:x64 flockCMake.dir\Debug\Pvector.obj
+         flockCMake.dir\Debug\Simulation.obj
+         flockCMake.dir\Debug\Vehicle.obj
+         flockCMake.dir\Debug\VehicleSystem.obj
+         flockCMake.dir\Debug\main.obj
+         flockCMake.vcxproj -> C:\Users\Akshay\Desktop\Flocking\builds\Debug\flockCMake.exe
+     1>Done Building Project "C:\Users\Akshay\Desktop\Flocking\builds\flockCMake.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.21
